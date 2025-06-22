@@ -178,6 +178,7 @@ void main() {
 String evaluateScore(int score, int par) {
   int diff = score - par;
 
+  //verschiedene schläge
   switch (diff) {
     case -3:
       if (par == 5)
